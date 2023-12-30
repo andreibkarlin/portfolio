@@ -1,0 +1,36 @@
+{
+  "Main Tutorial": [
+    "This is a custom bot made by Meep#7377 for the Generally Decentralized Democracy discord server. It's based on real life economies and is meant to be somewhat realistic.",
+    "- The basis of the economy is **Labor**. Labor produces all value. For example, you might do /work chop to chop down a tree, which will produce wood. However this performing labor, represented by having to complete a minigame. There are multiple types of labor and resources. For example, you might craft your wood into paper.",
+    "- **Money** is a representation of value used for trade. Rather than appearing out of thin air, it is produced by governments. In this case, the GDD **Government**  has authority over currency, and can print money using paper.",
+    "- **Shops** are the way that you can buy and sell items. Shops are privately owned by **Companies**, and prices are set by the owner and by supply and demand. Meaning if you buy an item, its price will increase, and if you sell an item, its price will decrease."
+  ],
+  "Money Making": [
+    "There are multiple ways to make money with the bot. Keep in mind that all money is initially produced by the government. Here are some examples:",
+    "1. From the government. The government can print and hand out money. Of course there might be conditions for this.",
+    "2. From selling items. You can do /work commands to produce items, and sell them to a shop.",
+    "3. From companies. You can create a company or work at a company. There are many ways a company might make money.",
+    "4. From making a shop. If you have the capital, you can create a shop and make profit from markups on prices.",
+    "5. From gambling. This is unlikely to work because casinos are for-profit."
+  ],
+  "Shops": [
+    "1. Shops are the primary way that items are bought and sold on the market. A shop is a owned by a company, created with 10 wood, and can create offers. Users can do /shops to see all of the shops or their offers, and /shop offer accept to accept an offer.",
+    "2. Offers are the offerings a shop has to its customers. A shop can have buy offers (people buy from the shop) or sell offers (people sell to the shop). For a shop to make money it will want to keep the sell prices below the buy prices.",
+    "3. Prices of offers are based on the target, the base price. At the target supply, a shop will have the price set to the base price. If the supply of the item being bought or sold goes down, that means demand is greater than supply, so the shop will increase prices. If the supply goes up, that means supply is less than demand, so the shop will decrease prices.",
+    "4. More specfiically, if you multiply the supply of the item by N, the price will change by 1/N^E, where E is the elasticity. This means that if the elasticity is 0, the price won't change at all, and if the elasticity is 1, the price will be equal to the base price times target supply over the supply.",
+    "5. Shops can also set the order of their offers (ranks) and set a maximum and minimum price. They can also set a description and open or close.",
+    "Here is a calculator that shows how prices are determined: https://www.desmos.com/calculator/wzug95brht"
+  ],
+  "Companies": [
+    "Companies are privately owned entities that have their own balance and inventory. They can create shops and take in or pay out money."
+  ],
+  "Government": [
+    "The government is the entity that manages the economy of its server. Similar to companies, they have their own balance and inventory, and can pay in or pay out.",
+    "- However (some) governments can also print money using paper.",
+    "- The government has a permission system where roles can be set to permissions. The permissions are administrator (all perms), head of government (can modify the government), treasurer (can spend money), inventory manager (can give out items), and money printer (can print money)"
+  ],
+  "Gambling": [
+    "Casinos are privately owned entities where you can gamble to try to win money. Currently there is only one casino.",
+    "The gambling commands are blackjack, coinflip, roulette, slots."
+  ]
+}
